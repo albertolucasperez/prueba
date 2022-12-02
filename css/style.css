@@ -1,0 +1,259 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "Open Sauce Sans";
+    src: url("../fonts/OpenSauceSans-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Open Sauce Sans";
+    src: url("../fonts/OpenSauceSans-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Open Sauce Sans";
+    src: url("../fonts/OpenSauceSans-SemiBold.ttf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Open Sauce Sans";
+    src: url("../fonts/OpenSauceSans-Bold.ttf");
+    font-weight: 700;
+}
+
+body {
+    font-family: Open Sauce Sans, Helvetica, san-serif;
+    font-weight: 400;
+    background-color: #F3F4F5;
+    color: #1D1916;
+}
+
+#navbar {
+    background-color: rgba(227, 229, 232, 0.7);
+    backdrop-filter: blur(20px);
+    width: 90vw;
+    max-width: 1290px;
+    margin: 0px auto;
+    border-radius: 24px;
+    padding: 24px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid #a2a6be; */
+}
+
+nav {
+    display: flex;
+    gap: 24px;
+}
+
+header {
+    padding: 24px 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 125%;
+    max-width: 1032px;
+    margin-bottom: 24px;
+}
+
+h2 {
+    font-size: 22px;
+    line-height: 33px;
+    max-width: 665px;
+    color: #5E5D5F;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1D1916;
+    margin-bottom: 8px;
+}
+
+.bold-font {
+    font-weight: 700;
+}
+
+.baskerville-font {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.big-text {
+    font-size: 56px;
+    line-height: 125%;
+    color: #1D1916;
+    max-width: 772px;
+    width: 50vw;
+}
+
+.big-text a {
+    color: #1D1916;
+    transition: all 0.3s ease-in-out;
+}
+
+.big-text a:hover {
+    color: #173AF3;
+}
+
+#logo {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #1D1916;
+    display: inline-block;
+}
+
+.navlink {
+    display: inline-flex;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #5E5D5F;  
+    transition: all 0.3s ease-in-out;
+}
+
+.navlink:hover {
+    color: #173AF3;
+}
+
+.navlink:visited {
+    color: #173AF3;
+}
+
+#hero {
+    width: 90vw;
+    max-width: 1290px;
+    margin: 250px auto 200px auto;
+}
+
+#title {
+    margin-bottom: 40px;
+}
+
+.button {
+    background-color: #173AF3;
+    color: #F3F4F5;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 14px 24px;
+    border-radius: 16px;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #0B29CC;
+    box-shadow: 0px 4px 16px 8px rgba(0, 0, 0, 0.08);
+    transform: scale(1.02);
+}
+
+#three-columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 90vw;
+    max-width: 1290px;
+    margin: 200px auto;
+}
+
+.column-text {
+    font-weight: 500;
+    font-size: 14px;
+    color: #5E5D5F;
+    display: inline-block;
+    line-height: 125%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.project-cover {
+    width: 90vw;
+    max-width: 1290px;
+    margin: 0px auto 200px auto;
+}
+
+.project-cover-info {
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 32px;
+}
+
+.project-description {
+    width: 53%;
+    color: #5E5D5F;
+    line-height: 150%;
+}
+
+.project-text {
+    display: inline-block;
+}
+
+.project-year {
+    display: inline-block;
+    color: #1D1916;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.project-cover-image-1 {
+    width: 100%;
+}
+
+.two-images {
+    width: 100%;
+    display: flex;
+    margin-top: 2%;
+    gap: 2%;
+}
+
+.project-cover-image-2 {
+    display: inline-flex;
+    width: 49%;
+}
+
+.project-cover-image-3 {
+    display: inline-flex;
+    width: 49%;
+}
+
+#contact {
+    width: 90vw;
+    max-width: 1290px;
+    margin: 0px auto 200px auto;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    max-width: 1290px;
+    margin: 0px auto 24px auto;
+}
+
+.footer-link {
+    color: #1D1916;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-link:hover {
+    color: #173AF3;
+}
